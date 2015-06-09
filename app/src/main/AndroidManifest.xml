@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ntaekryoo.mychallenge" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Challenge01Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Challenge02Activity"
+            android:label="@string/title_activity_challenge02" >
+        </activity>
+        <activity
+            android:name=".Challenge03.Challenge03MainActivity"
+            android:label="@string/title_activity_challenge03_main" >
+        </activity>
+        <activity
+            android:name=".Challenge03.Challenge03SubActivity"
+            android:label="@string/title_activity_challenge03_sub" >
+        </activity>
+        <activity
+            android:name=".Challenge04.Challenge04MainActivity"
+            android:label="@string/title_activity_challenge04_main" >
+        </activity>
+        <activity
+            android:name=".Challenge04.Challenge04SubActivity"
+            android:label="@string/title_activity_challenge04_sub" >
+        </activity>
+        <activity
+            android:name=".Challenge05Activity"
+            android:label="@string/title_activity_challenge05" >
+
+        </activity>
+        <activity
+            android:name=".HealthIndex.HealthIndexMainActivity"
+            android:label="@string/title_activity_healthindex_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HealthIndex.HealthIndexSubActivity"
+            android:label="@string/title_activity_healthindex_sub" >
+        </activity>
+    </application>
+
+</manifest>

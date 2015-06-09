@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.ntaekryoo.mychallenge.Challenge03.Challenge03MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollview01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/height"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="키를 입력하시오(cm)" />
+
+            <EditText
+                android:id="@+id/weight"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="몸무게를 입력하시오(kg)" />
+
+            <EditText
+                android:id="@+id/hbloodpressure"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="최고혈압을 입력하시오(mmHg)" />
+
+            <EditText
+                android:id="@+id/lbloodpressure"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="최저혈압을 입력하시오(mmHg)" />
+
+            <EditText
+                android:id="@+id/totalcolresterol"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="총콜레스테롤 지수를 입력하시오" />
+
+            <EditText
+                android:id="@+id/hdlcolresterol"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="HDL-콜레스테롤 지수를 입력하시오" />
+
+            <EditText
+                android:id="@+id/ldlcolresterol"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="LDL-콜레시테롤 지수를 입력하시오" />
+
+            <EditText
+                android:id="@+id/fatindex"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="중성지방 지수를 입력하시오" />
+
+            <EditText
+                android:id="@+id/AST"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="AST 지수를 입력하시오" />
+
+            <EditText
+                android:id="@+id/ALT"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="ALT 지수를 입력하시오" />
+
+            <EditText
+                android:id="@+id/GTP"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="감마-GTP 지수를 입력하시오" />
+
+
+            <Button
+                android:id="@+id/button"
+                android:text="건강지수들를 계산합니다"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
